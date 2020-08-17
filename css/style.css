@@ -50,7 +50,6 @@ p{
    margin: 8px auto ;
 }
 
-
 /* Header */
 
 .header{
@@ -82,6 +81,10 @@ p{
 
 .header_menu ul li a:hover{
     color: #fff;
+}
+
+.header_menu ul li a.menu_ativo{
+    color: #ffF;
 }
 
 img{
@@ -130,6 +133,39 @@ img{
     font-weight: bold;
     font-size: 14px;
     letter-spacing: .1em;
+}
+
+/* Introdução Interna*/
+
+.introducao-interna{
+    width: 100%;
+    height: 160px;
+    margin-top: 92px;
+    background-size: cover;
+    text-align: center;
+    color: #fff; 
+    padding-top: 30px;    
+}
+
+.introducao-interna h1{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.introducao-interna h1:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #ffF;
+    margin: 6px auto 10px auto;
+}
+.introducao-interna p{
+    font-size: 14px;
+    
+    
 }
 
 /*Produtos*/
@@ -210,10 +246,12 @@ img{
 
 .qualidade{
     padding-top: 60px ;
+    
 }
 
 .qualidade_lista{
     padding-top: 20px;
+    overflow: auto;
 }
 
 .qualidade:after{
@@ -234,7 +272,8 @@ img{
 }
 .qualidade_lista li{
     text-align: center;
-    padding: 0 40px;
+    
+   
 }
 
 .qualidade_lista li h3{
@@ -253,10 +292,13 @@ img{
    height: 3px;
    background: #000;
    margin: 6px auto ;
+   
 }
 
 .qualidade .call{
     padding-bottom: 60px;
+   
+    
 }
 
 /* Quebra*/
@@ -332,4 +374,41 @@ img{
     background: #FEC63E;
     text-align: left;
     padding: 20px ;
+}
+/* Pagina sobre*/
+
+.sobre{
+    width: 100%;
+    height: 160px;
+    background: url("../img/bg-sobre.jpg") no-repeat center;
+    background-size: cover;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.sobre h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold; 
+}
+.quote-externo-sobre{
+    max-width: 320px;
+    margin: 0 auto;
+    color: #fff; 
+    margin-bottom: 40px;
+}
+
+.quote-externo-sobre p{
+    font-style: italic;
+}
+
+.quote-externo-sobre p:before{
+   content: "";
+   display: block;
+   width: 60px;
+   height: 3px;
+   background: #ffF;
+   margin: 8px auto 14px auto;
 }

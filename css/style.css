@@ -89,6 +89,7 @@ p{
 
 img{
     display: block;
+    max-width: 100%;
 }
 /* Introdução*/
 
@@ -102,12 +103,7 @@ img{
     padding-top: 80px;
 }
 
-.introducao h1{
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 48px;
-    font-weight: bold; 
-}
+
 .quote-externo{
     max-width: 320px;
     margin: 0 auto;
@@ -173,12 +169,13 @@ img{
     padding: 60px 0;
 }
 
-.produtos_lista{
-    text-align: center;
-}
-
 .produtos_lista li{
   background: #FEC63E;
+  text-align: center;
+}
+
+.produtos_lista img{
+    margin: 0 auto;
 }
 
 .produtos_lista-img{
@@ -269,10 +266,9 @@ img{
    margin: 0 auto;
    width: 197px;
 }
+
 .qualidade_lista li{
-    text-align: center;
-    
-   
+    text-align: center; 
 }
 
 .qualidade_lista li h3{

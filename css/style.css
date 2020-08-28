@@ -103,6 +103,13 @@ img{
     padding-top: 80px;
 }
 
+.introducao h1{
+    font-size: 48px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
 
 .quote-externo{
     max-width: 320px;

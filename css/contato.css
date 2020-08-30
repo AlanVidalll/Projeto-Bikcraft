@@ -79,14 +79,15 @@
     text-transform: uppercase;
 }
 .contato_dados ul li{
-    display: inline-block;   
+    display: inline-block;  
+    width: 54px; 
 }
 
 .contato_dados ul li a{
     display: block;
     border: 3px solid #FEC63E;
     padding: 6px 6px;
-    margin-right: 10px;
+    margin-right: 4px;
 }
 
 .contato_dados ul li a:hover{

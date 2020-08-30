@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sobre.css">
     <link rel="stylesheet" href="css/responsivo.css"><!--Resonsivo sempre por ultimo-->
+    <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
   <header class="header">
@@ -30,12 +31,12 @@
 
   <section class="introducao-interna  interna_sobre">
       <div class="container">
-          <h1>Sobre</h1>
-          <p>Conheça mais sobre a bikcraft</p>
+          <h1 data-anime="400" class="fadeInDown">Sobre</h1>
+          <p data-anime="800" class="fadeInDown">Conheça mais sobre a bikcraft</p>
   </section>
   <!-- Fechamento Section Indrodução Interna-->
 
-  <section class="missao_sobre container">
+  <section data-anime="1200" class="missao_sobre container fadeInDown">
 
       <div class="grid-10">
           <h2 class="subtitulo-interno">História, Missão e Valor</h2>
@@ -87,6 +88,8 @@
           <cite>WILLIAM MORRIS</cite>
       </blockquote>
 
+</section>
+
       <footer>
          <div class="footer">
              <div class="container">
@@ -125,7 +128,8 @@
          </div>
       </footer>
    
-  </section>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 
 </body>
 </html>

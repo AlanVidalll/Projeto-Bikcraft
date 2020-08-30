@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/responsivo.css"><!--Resonsivo sempre por ultimo-->
+    <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
   <header class="header">
@@ -30,25 +31,45 @@
 
   <section class="introducao-interna  interna_portfolio">
       <div class="container">
-          <h1>Portfólio</h1>
-          <p>Conheça os projetos que amamos mostrar</p>
+          <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+          <p data-anime="800" class="fadeInDown">Conheça os projetos que amamos mostrar</p>
   </section>
   <!-- Fechamento Section Indrodução Interna-->
 
-  <section class="container">
+  <section class="container fadeInDown" data-anime="1200" data-slide = "quote" >
       <blockquote class="quote_clientes">
         <p>"No mundo atual, a continua expansão de nossa
             atividade cumpre um papel essencial  na formulação  da
             gestão inovadora de qual fazemos parte"</p>
         <cite>Barbara Moss</cite>
       </blockquote>
+
+      <blockquote class="quote_clientes">
+        <p>"O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. 
+            O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, 
+            quando uma misturou os caracteres de um texto para criar um espécime de livro."</p>
+        <cite>Ayrton Senna</cite>
+      </blockquote>
+
+      <blockquote class="quote_clientes">
+        <p>"É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma 
+            página quando analisa a sua mancha gráfica. 
+            Logo, o uso de Lorem Ipsum leva a uma distribuição mais ou menos normal de letras, 
+            ao contrário do uso de "Conteúdo aqui, conteúdo aqui", tornando-o texto legível."</p>
+        <cite>Edson Arantes </cite>
+      </blockquote>
   </section>
 
   <section class="portifolio">
-    <div class="container">
+    <div class="container fadeInDown" data-anime="1600" data-slide="portifolio">
         <ul class="portfolio_lista">
             <li class="grid-8"><img src="img/portifolio/retro.jpg" alt="Bicicleta Retro"></li>
             <li class="grid-8"><img src="img/portifolio/passeio.jpg" alt="Bicicleta Passeio"></li>
+            <li class="grid-16"><img src="img/portifolio/esporte.jpg" alt="Bicicleta Esporte"></li>
+        </ul>
+        <ul class="portfolio_lista">
+            <li class="grid-8"><img src="img/portifolio/passeio.jpg" alt="Bicicleta Passeio"></li>
+            <li class="grid-8"><img src="img/portifolio/retro.jpg" alt="Bicicleta Retro"></li>
             <li class="grid-16"><img src="img/portifolio/esporte.jpg" alt="Bicicleta Esporte"></li>
         </ul>
     </div>
@@ -60,6 +81,8 @@
           <p>"O verdadeiro segredo da felicidade está em ter um genuíno interesses por todos os detalhes da vida cotidiana"</p>
           <cite>WILLIAM MORRIS</cite>
       </blockquote>
+
+</section>
 
       <footer>
          <div class="footer">
@@ -98,8 +121,11 @@
              </div>
          </div>
       </footer>
-   
-  </section>
+
+
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/simple-slide.js"></script>
+  <script src="./js/script.js"></script>
 
 </body>
 </html>

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/responsivo.css"><!--Resonsivo sempre por ultimo-->
+    <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
   <header class="header">
@@ -30,12 +31,12 @@
 
   <section class="introducao-interna  interna_produtos">
       <div class="container">
-          <h1>Produtos</h1>
-          <p>Conheça todos os nossos produtos</p>
+          <h1 data-anime="400" class="fadeInDown">Produtos</h1>
+          <p data-anime="800" class="fadeInDown">Conheça todos os nossos produtos</p>
   </section>
   <!-- Fechamento Section Indrodução Interna-->
 
-  <section class="container produtos_item">
+  <section data-anime="1200" class="container produtos_item fadeInDown">
       <div class="grid-11">
           <img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft Passeio">
           <h2>Passeio</h2>
@@ -46,7 +47,7 @@
       <div class="grid-8">
           <img src="img/produtos/bikcraft-passeio-2.jpg" alt="Bikcraft Passeio">
       </div>
-      <div class="grid-8 produro_info">
+      <div class="grid-8 produto_info">
           <p>O verdadeiro segredo da felicidade está em ter um genuíno interesses por todos  
               os detalhes da vida cotidiana. interesses por todos os detalhes da vida cotidiana.</p>
               <ul>
@@ -69,7 +70,7 @@
       <div class="grid-8">
           <img src="img/produtos/bikcraft-esporte-2.jpg" alt="Bikcraft Esporte">
       </div>
-      <div class="grid-8 produro_info">
+      <div class="grid-8 produto_info">
           <p>O verdadeiro segredo da felicidade está em ter um genuíno interesses por todos  
               os detalhes da vida cotidiana. interesses por todos os detalhes da vida cotidiana.</p>
               <ul>
@@ -92,7 +93,7 @@
       <div class="grid-8">
           <img src="img/produtos/bikcraft-retro-2.jpg" alt="Bikcraft Retro">
       </div>
-      <div class="grid-8 produro_info">
+      <div class="grid-8 produto_info">
           <p>O verdadeiro segredo da felicidade está em ter um genuíno interesses por todos  
               os detalhes da vida cotidiana. interesses por todos os detalhes da vida cotidiana.</p>
               <ul>
@@ -144,6 +145,7 @@
           <p>"O verdadeiro segredo da felicidade está em ter um genuíno interesses por todos os detalhes da vida cotidiana"</p>
           <cite>WILLIAM MORRIS</cite>
       </blockquote>
+</section>
 
       <footer>
          <div class="footer">
@@ -182,8 +184,13 @@
              </div>
          </div>
       </footer>
+
+      
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
+
    
-  </section>
+ 
 
 </body>
 </html>

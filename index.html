@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/grid.css"><!--Por baixo do reset e acima dos outros arquivos.-->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsivo.css"><!--Resonsivo sempre por ultimo-->
+    <script>document.documentElement.classList.add("js");</script>
 </head>
 <body>
   <header class="header">
@@ -29,17 +30,17 @@
 
   <section class="introducao">
       <div class="container">
-          <h1>bicicletas feitas a mãos</h1>
-          <blockquote class="quote-externo">
+          <h1 data-anime="400" class="fadeInDown">bicicletas feitas a mãos</h1>
+          <blockquote data-anime="800"  class="fadeInDown quote-externo">
               <p>"não tenha nada em sua casa que você não considere útil ou acredita ser bonito"</p>
               <cite>WILLIAM MORRIS</cite>
         </blockquote>
-        <a href="produtos.html" class="btn">Orçamento</a>
+        <a data-anime="1200" href="produtos.html" class="btn">Orçamento</a>
       </div>
   </section>
   <!-- Fechamento Section Indrodução -->
     
-  <section  class="produtos container">
+  <section  class="fadeInDown produtos container"data-anime="1600">
     <h2 class="subtitulo">Produtos</h2>
     <ul class="produtos_lista">
         <li class="grid-1-3">
@@ -118,6 +119,7 @@
           <p>"O verdadeiro segredo da felicidade está em ter um genuíno interesses por todos os detalhes da vida cotidiana"</p>
           <cite>WILLIAM MORRIS</cite>
       </blockquote>
+ </section>
 
       <footer>
          <div class="footer">
@@ -157,7 +159,8 @@
          </div>
       </footer>
    
-  </section>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 
 </body>
 </html>

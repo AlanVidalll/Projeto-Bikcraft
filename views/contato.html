@@ -38,15 +38,15 @@
 
   
   <section class="container fadeInDown" data-anime="1200">
-          <form class="grid-8 contato_form" id="form_contato">
+          <form method="post" action="/send" class="grid-8 contato_form" id="form_contato">
               <label for="nome">Nome</label>
-              <input type="text" id="nome">
+              <input type="text" name="name">
               <label for="email">E-mail</label>
-              <input type="text" id="email">
+              <input type="text" name="email">
               <label for="telefone">Telefone</label>
-              <input type="text" id="telefone">
+              <input type="text" name="telefone">
               <label for="espec">Especificações</label>
-              <textarea name="espec" id="" cols="30" rows="10"></textarea>
+              <textarea name="message" id="" cols="30" rows="10"></textarea>
               <button type="submit" class="btn">Enviar</button>
           </form>
 

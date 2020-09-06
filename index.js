@@ -50,21 +50,28 @@ const transporter = nodemailer.createTransport(config)
 //Router E-mail
 
 app.post("/send",(req,res) => {
+
+
     const name = req.body.name
     const email = req.body.email
+    const phone = req.body.phone
     const text = req.body.message
-
+    
     const message = {
         from: USER,
         to: USER,
         replyTo: email,
-        text: "Nome: " + name + "\n\n" + "Mensagem: " + text,
+        text: "Nome: " + name + "\n\n" +
+         "Email: " + email + "\n\n" +
+         "telefone: " + phone + "\n\n" +
+         "Mensagem: " + text
     }
     transporter.sendMail(message, function (error, info) {
+    
         if (error) {
-          return res.status(400).send("error")
+         return res.send("erro")
         }
-        return  res.status(200).send("sucess")
+        return res.send("sucesso")
     })
 })
 

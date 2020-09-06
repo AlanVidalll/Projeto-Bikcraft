@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bickcraft - Contato</title>
-    <link rel="stylesheet" href="/css/normalize.css"><!--Sempre por cima de outros arquivos CSS.-->
-    <link rel="stylesheet" href="/css/reset.css"><!--Por baixo do normalize e acima dos outros arquivos.-->
-    <link rel="stylesheet" href="/css/grid.css"><!--Por baixo do reset e acima dos outros arquivos.-->
+    <title>Bickcraft - Contato - 19 9999-9999</title>
+
+    <meta name="description" content="Compre sua bicicletqa personalizada na Bikcraft.
+    Possuímos modelos Passeio, Retrô e Esporte.">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bickcraft - Contato - 19 9999-9999" />
+    <meta property="og:description" content="Compre sua bicicletqa personalizada na Bikcraft.
+    Possuímos modelos Passeio, Retrô e Esporte."/>
+    <meta property="og:url" content="https://bikcraft.com/contato.html" />
+    <meta property="og:image" content="https://bikcraft.com/img/og-image.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/contato.css">
-    <link rel="stylesheet" href="/css/responsivo.css"><!--Resonsivo sempre por ultimo-->
-    <script>document.documentElement.classList.add("js");</script>
+  <script>document.documentElement.classList.add("js");</script>
+
 </head>
 <body>
   <header class="header">
@@ -33,21 +44,22 @@
       <div class="container">
           <h1  data-anime="400" class="fadeInDown">Contato</h1>
           <p  data-anime="800" class="fadeInDown">Tire suas dúvidas coma gente</p>
+      </div>
   </section>
   <!-- Fechamento Section Indrodução Interna-->
 
   
   <section class="container fadeInDown" data-anime="1200">
-          <form method="post" action="/send" class="grid-8 contato_form" id="form_contato">
-              <label for="nome">Nome</label>
-              <input type="text" name="name">
-              <label for="email">E-mail</label>
-              <input type="text" name="email">
-              <label for="telefone">Telefone</label>
-              <input type="text" name="telefone">
-              <label for="espec">Especificações</label>
-              <textarea name="message" id="" cols="30" rows="10"></textarea>
-              <button type="submit" class="btn">Enviar</button>
+          <form method="post" action="/send" class="grid-8 contato_form " id="form_contato">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email" required>
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" name="phone" required>
+            <label for="menssage">Mensagem</label>
+            <textarea name="message" id="menssage" cols="30" rows="10" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
           </form>
 
           <div class="grid-8 contato_dados">
@@ -67,19 +79,18 @@
             </div>
   </section>
 
-  <section class="container">
-      <a class="mapa grid-16" target="blank" href="https://www.google.com.br/maps/place/IBM+Brasil+-+Hortol%C3%A2ndia/@-22.8996351,-47.2032362,
-      17z/data=!3m1!4b1!4m5!3m4!1s0x94c8b99e88282e27:0xb530b0fa4224b623!8m2!3d-22.8996401!4d-47.2010475">
+  <div class="container">
+      <a class="mapa grid-16" target="blank" href="https://www.google.com.br">
       <img src="../img/endereco-bikcraft.jpg" alt="localização">
     </a>
-  </section>
+  </div>
 
-  <section class="quebra">
+  <div class="quebra">
       <blockquote class=" quote-externo container">
           <p>"O verdadeiro segredo da felicidade está em ter um genuíno interesses por todos os detalhes da vida cotidiana"</p>
           <cite>WILLIAM MORRIS</cite>
       </blockquote>
-</section>
+</div>
 
       <footer>
          <div class="footer">

@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bickcraft - Produtos</title>
-    <link rel="stylesheet" href="/css/normalize.css"><!--Sempre por cima de outros arquivos CSS.-->
-    <link rel="stylesheet" href="/css/reset.css"><!--Por baixo do normalize e acima dos outros arquivos.-->
-    <link rel="stylesheet" href="/css/grid.css"><!--Por baixo do reset e acima dos outros arquivos.-->
+    <title>Bickcraft - Conheça as linhas Paseio, Retrô e Esporte</title>
+
+    <meta name="description" content="Compre sua bicicletqa personalizada na Bikcraft.
+    Possuímos modelos Passeio, Retrô e Esporte.">
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bickcraft - Conheça as linhas Paseio, Retrô e Esporte" />
+    <meta property="og:description" content="Compre sua bicicletqa personalizada na Bikcraft.
+    Possuímos modelos Passeio, Retrô e Esporte."/>
+    <meta property="og:url" content="https://bikcraft.com/produtos.html" />
+    <meta property="og:image" content="https://bikcraft.com/img/og-image.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/produtos.css">
-    <link rel="stylesheet" href="/css/responsivo.css"><!--Resonsivo sempre por ultimo-->
     <script>document.documentElement.classList.add("js");</script>
+
 </head>
 <body>
   <header class="header">
@@ -33,6 +44,7 @@
       <div class="container">
           <h1 data-anime="400" class="fadeInDown">Produtos</h1>
           <p data-anime="800" class="fadeInDown">Conheça todos os nossos produtos</p>
+      </div>
   </section>
   <!-- Fechamento Section Indrodução Interna-->
 
@@ -109,14 +121,14 @@
       <div class="container">
           <h2 class="subtitulo">Orçamento</h2>
           <form method="post" action="/send" class="grid-8 form" id="form_orcamento">
-              <label for="nome">Nome</label>
-              <input type="text" name="name">
+              <label for="name">Nome</label>
+              <input type="text" id="name" name="name" required>
               <label for="email">E-mail</label>
-              <input type="text" name="email">
+              <input type="text" id="email" name="email" required>
               <label for="telefone">Telefone</label>
-              <input type="text" name="telefone">
-              <label for="mensagem">Mensagem</label>
-              <textarea name="message" cols="30" rows="10"></textarea>
+              <input type="text" id="telefone" name="phone" required>
+              <label for="menssage">Mensagem</label>
+              <textarea name="message" id="menssage" cols="30" rows="10" required></textarea>
               <button type="submit" class="btn">Enviar</button>
           </form>
 
@@ -133,19 +145,17 @@
                   <li>- Medidas</li>
                   <li>- E Outros</li>
               </ul>
-
-
           </div>
       </div>
 
   </section>
 
-  <section class="quebra">
+  <div class="quebra">
       <blockquote class=" quote-externo container">
           <p>"O verdadeiro segredo da felicidade está em ter um genuíno interesses por todos os detalhes da vida cotidiana"</p>
           <cite>WILLIAM MORRIS</cite>
       </blockquote>
-</section>
+</div>
 
       <footer>
          <div class="footer">
@@ -185,12 +195,10 @@
          </div>
       </footer>
 
-      
+  
   <script src="../js/simple-anime.js"></script>
   <script src="../js/script.js"></script>
 
-   
- 
 
 </body>
 </html>

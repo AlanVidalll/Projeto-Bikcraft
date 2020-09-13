@@ -20,6 +20,7 @@
     <link rel="shortcut icon" href="img/favicon.ico">
 
     <link rel="stylesheet" href="/css/style.css">
+    
   <script>document.documentElement.classList.add("js");</script>
 
 </head>
@@ -52,13 +53,13 @@
   <section class="container fadeInDown" data-anime="1200">
           <form method="post" action="/send" class="grid-8 contato_form " id="form_contato">
             <label for="name">Nome</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" required maxlength="60" minlength="4" >
             <label for="email">E-mail</label>
-            <input type="text" id="email" name="email" required>
-            <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" name="phone" required>
+            <input type="text" id="email" name="email" required maxlength="50" minlength="4">
+            <label for="telefone">Telefone com DDD</label>
+            <input type="text" id="telefone" name="phone" required maxlength="13" minlength="10">
             <label for="menssage">Mensagem</label>
-            <textarea name="message" id="menssage" cols="30" rows="10" required></textarea>
+            <textarea name="message" id="menssage" cols="30" rows="10" required maxlength="500"></textarea>
             <button type="submit" class="btn">Enviar</button>
           </form>
 
@@ -133,5 +134,6 @@
   
   <script src="../js/simple-anime.js"></script>
   <script src="../js/script.js"></script>
+  
 </body>
 </html>

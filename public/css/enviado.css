@@ -1,0 +1,25 @@
+.emailenviado{
+    height: 230px;
+
+}
+.emailenviado p img{
+    height: 100px;
+    width: 100px;
+    
+}
+.emailenviado p{
+    padding: 40px 0 40px 0;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: Georgia, "Time New Roman", serif;
+    color: #2cc52c;   
+}
+
+.emailenviado a{
+    padding: 7px 40px;
+    background: none;
+}
+.emailenviado a:hover{
+    color: #000;
+    border-color:#000;
+}

@@ -160,4 +160,25 @@
 	   .contato_form{
 		padding-bottom: 0px;
 	}
+
+	.emailenviado{
+		height: 150px;
+	 }
+ 
+	 .emailenviado p{
+		 padding: 10px 0 20px 0;
+	 }
+	 .emailenviado p img{
+		 display: none;
+	 }
+	 .emailerro{
+		height: 150px;
+	 }
+ 
+	 .emailerro p{
+		 padding: 10px 0 20px 0;
+	 }
+	 .emailerro p img{
+		 display: none;
+	 }
 }

@@ -1,0 +1,28 @@
+.emailerro{
+    display: block;
+    height: 230px;
+
+}
+
+.emailerro p img{
+    height: 100px;
+    width: 100px;
+}
+.emailerro p{
+    display: block;
+    padding: 60px 0 40px 0;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: Georgia, "Time New Roman", serif;
+    color: #dd413b;   
+}
+
+.emailerro a{
+    padding: 7px 40px;
+    background: none;
+}
+.emailerro a:hover{
+    color: #000;
+    border-color:#000;
+}
+

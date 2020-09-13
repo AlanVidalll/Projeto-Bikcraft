@@ -51,7 +51,6 @@ const transporter = nodemailer.createTransport(config)
 
 app.post("/send",(req,res) => {
 
-
     const name = req.body.name
     const email = req.body.email
     const phone = req.body.phone
@@ -68,10 +67,11 @@ app.post("/send",(req,res) => {
     }
     transporter.sendMail(message, function (error, info) {
     
-        if (error) {
-         return res.send("erro")
-        }
-        return res.send("sucesso")
+        if (error) {     
+         return res.sendFile(__dirname + "/views/erroaoenviar.html")
+        } 
+        return res.sendFile(__dirname + "/views/enviado.html")
+       
     })
 })
 

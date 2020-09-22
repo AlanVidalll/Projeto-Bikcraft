@@ -4,7 +4,7 @@ const bodyParser = require("body-parser")
 const path = require("path")
 const nodemailer = require("nodemailer")
 const dotenv = require('dotenv').config()
-const port = 3000
+
 
 
 //Body-Parser
@@ -77,7 +77,7 @@ app.post("/send",(req,res) => {
 
 //configurando a porta do servidor
 
-app.listen(port, () => {
+app.listen(process.env.PORT || 3000,() => {
     console.log("Servidor rodando na porta: " + port)
     
 })

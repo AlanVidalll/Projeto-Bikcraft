@@ -78,6 +78,6 @@ app.post("/send",(req,res) => {
 //configurando a porta do servidor
 
 app.listen(process.env.PORT || 3000,() => {
-    console.log("Servidor rodando na porta: " + port)
+    console.log("Servidor rodando na porta: " + 3000)
     
 })

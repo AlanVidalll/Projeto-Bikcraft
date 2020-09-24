@@ -2,7 +2,7 @@
 
 ### Aplicação desenvolvida no curso de Web Design Completo na <https://www.origamid.com/>
 
-### Link para a aplicação <https://bickaft.herokuapp.com/>
+### Link para o site <https://bickaft.herokuapp.com/>
 
 <p align="center">
     <img src="https://i.ibb.co/1Gw01Xc/2020-09-21-3.png" 

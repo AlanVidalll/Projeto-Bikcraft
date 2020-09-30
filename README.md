@@ -9,7 +9,7 @@
 ### Link para o site <https://bickaft.herokuapp.com/>
 
 <p align="center">
-    <img src="https://i.ibb.co/1Gw01Xc/2020-09-21-3.png" 
+    <img src="https://i.ibb.co/VCR464H/2020-09-30.png" alt="2020-09-21-2" border="0" width="800">
     alt="2020-09-21-3" border="0" width="800">
 </p>
 

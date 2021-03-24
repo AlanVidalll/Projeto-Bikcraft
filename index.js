@@ -3,20 +3,18 @@ const app = express()
 const bodyParser = require("body-parser")
 const path = require("path")
 const nodemailer = require("nodemailer")
-const dotenv = require('dotenv').config()
+
 
 
 
 //Body-Parser
+app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({
     extended: true
 }))
-app.use(bodyParser.json())
-
 
 //Configurando express para enchergar os arquivos estatícos
 app.use(express.static(path.join(__dirname, "public")))
-
 
 //Rotas
 app.get("/", ((req, res) => {
@@ -36,7 +34,6 @@ app.get("/contato", ((req, res) => {
 }))
 
 //Config Nodemailer
-
 const {
     USER,
     PASS
@@ -53,7 +50,6 @@ const transporter = nodemailer.createTransport(config)
 
 
 //Router E-mail
-
 app.post("/send", (req, res) => {
 
     const name = req.body.name
@@ -81,7 +77,6 @@ app.post("/send", (req, res) => {
 })
 
 //configurando a porta do servidor
-
 app.listen(process.env.PORT || 3000, () => {
     console.log("Servidor rodando na porta: " + 3000)
 })

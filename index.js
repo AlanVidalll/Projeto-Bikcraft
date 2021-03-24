@@ -4,9 +4,6 @@ const bodyParser = require("body-parser")
 const path = require("path")
 const nodemailer = require("nodemailer")
 
-
-
-
 //Body-Parser
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({

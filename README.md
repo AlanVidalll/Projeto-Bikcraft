@@ -1,28 +1,41 @@
-# Projeto-Bikcraft
+# Bikcraft
 
+## O Projeto
 
+Nesse projeto criamos um site institucional  em uma aplicação Node.JS, uma aplicação onde podemos praticar HTMl , CSS 3 e JavaScript, essa aplicação simula um site institucional de uma empresa de bicicletas personalizadas onde tem várias páginas de navegação, formulários de contato e orçamento.
 
-## Aplicação desenvolvida no curso de Web Design Completo na <https://www.origamid.com/>
+[clique aqui](https://bickaft.herokuapp.com/) para navegar na aplicação.
 
+## Requisitos
 
+* JavaScript
+* HTML
+* CSS FlexBox
+* Node.JS
+* IDE ou Editor de Texto(Exemplo: **Visual Studio Code** [clique aqui](https://code.visualstudio.com/download) para dowload)
 
-### Link para o site <https://bickaft.herokuapp.com/>
+## Instalando o Projeto
 
-<p align="center">
-    <img src="https://i.ibb.co/VCR464H/2020-09-30.png" alt="2020-09-21-2" border="0" width="800">
-</p>
+* Navegue até a página principal do repositório.
+* Procure pela opção 'clone'.
+* Copie a URL https.
+* Abra seu VS Code o diretório que deseja clonar e abra o termiinal.
+* Digite ```git clone``` (clonar git) e cole a URL que você copiou anteriormente.
+```
+$ git clone <URL copiada>
+```
+* Pressione Enter para criar seu clone local.
+* Digite npm install 
+```
+$ npm install
+```
 
-<p align="center">
-    <img src="https://i.ibb.co/hHMfLFg/2020-09-30-4.png" alt="2020-09-21-2" border="0" width="800">
-</p>
+## Executando o Sistema
 
-<p align="center">
-    <img src="https://i.ibb.co/3hD9WMH/2020-09-30-1.png" alt="2020-09-21-2" border="0" width="800">
-</p>
+* No terminal digite npm start 
 
-<p align="center">
-<img src="https://i.ibb.co/fpKytBs/2020-09-30-2.png" alt="2020-09-21-2" border="0" width="800">
-</p>
+```
+$ npm start
+```
 
-<p align="center">
-<img src="https://i.ibb.co/vwc3Jcq/2020-09-30-3.png" alt="2020-09-21-2" border="0" width="800"><</p>
+* Clique ou copie o link sua aplicação estará rodando nela **http://localhost:3000/**

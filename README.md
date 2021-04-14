@@ -2,7 +2,7 @@
 
 ## O Projeto
 
-Nesse projeto criamos um site institucional  em uma aplicação Node.JS, uma aplicação onde podemos praticar HTMl , CSS 3 e JavaScript, essa aplicação simula um site institucional de uma empresa de bicicletas personalizadas onde tem várias páginas de navegação, formulários de contato e orçamento.
+Nesse projeto criamos um site institucional  em uma aplicação Node.JS, uma aplicação onde podemos praticar HTML, CSS 3 e JavaScript, essa aplicação simula um site institucional de uma empresa de bicicletas personalizadas onde tem várias páginas de navegação, formulários de contato e orçamento.
 
 [clique aqui](https://bickaft.herokuapp.com/) para navegar na aplicação.
 
